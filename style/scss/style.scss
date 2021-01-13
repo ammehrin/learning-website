@@ -2,3 +2,23 @@ body {
     font-family: Vazir;
     font-size: 100%;
 }
+
+.jumbotron {
+    background-color: #ffffff;
+    margin-bottom: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    .container {
+        max-width: 40rem;
+    }
+}
+.jumbotron-heading {
+    font-weight: 300;
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+    }
+}
