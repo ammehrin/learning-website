@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: Vazir;
   font-size: 100%;
@@ -21,6 +22,14 @@ body {
   .jumbotron {
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+  .card span {
+    display: none;
+  }
+  .card button:after {
+    content: "ادامه";
   }
 }
 
